@@ -1,0 +1,152 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: black;
+}
+
+.logo {
+    position: relative;
+    font-size: 39px;
+    color: aqua;
+    text-decoration: none;
+    font-weight: 600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+
+}
+
+.logo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    animation: showRight 1s ease forwards;
+    animation-delay: .4s;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: rgb(249, 248, 248);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: aqua;
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url("iphone.jpg");
+    background-size: cover;
+}
+h1{
+    color: white;
+    margin-top: 15%;
+    margin-left: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+h2{
+    color: aqua;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 30%;
+}
+.con{
+    margin-top: 15px;
+}
+i{
+    position: relative;
+    top: 3px;
+    padding-right: 1%;
+}
+@media screen and (min-width: 80px) and (max-width:950px){
+
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 50%;
+        padding: 10px 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 50;
+        background-color: black;
+    }
+    
+    .logo {
+        position: relative;
+        font-size: 19px;
+        color: aqua;
+        text-decoration: none;
+        font-weight: 300;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: italic;
+    
+    }
+    
+    .logo::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: 50%;
+        animation: showRight 1s ease forwards;
+        animation-delay: .20s;
+    }
+    
+    .navbar a {
+        font-size: 8px;
+        color: rgb(249, 248, 248);
+        text-decoration: none;
+        font-weight: 200;
+        margin-left: 17px;
+    }
+    
+    .navbar a:hover,
+    .navbar a.active {
+        color: aqua;
+    }
+    * {
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    body{
+        background-image: url("iphone.jpg");
+        background-size: cover;
+    }
+    h1{
+        color: white;
+        margin-top: 25%;
+        margin-left: 5%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-style: italic;
+    }
+    h2{
+        color: aqua;
+        font-weight: bold;
+        font-style: italic;
+        margin-left: 2%;
+    }
+    .con{
+        margin-top: 7px;
+    }  
+}
