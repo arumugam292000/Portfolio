@@ -8,6 +8,7 @@
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    background-color: black;
 }
 
 .logo {
@@ -53,6 +54,7 @@ body{
     background-size: cover;
     width: 100%;
     height: 100%;
+    background-repeat: no-repeat;
 }
 h1{
     color: white;
@@ -71,80 +73,12 @@ p{
     margin-left: 10%;
     font-weight: bold;
 }
-@media screen and (min-width: 80px) and (max-width:950px){
-   
-    .header {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 50%;
-        padding: 10px 5%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        z-index: 50;
-    }
-    
-    .logo {
-        position: relative;
-        font-size: 19px;
-        color: aqua;
-        text-decoration: none;
-        font-weight: 300;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-style: italic;
-    
-    }
-    
-    .logo::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 50%;
-        height: 50%;
-        animation: showRight 1s ease forwards;
-        animation-delay: .20s;
-    }
-    
-    .navbar a {
-        font-size: 8px;
-        color: rgb(249, 248, 248);
-        text-decoration: none;
-        font-weight: 200;
-        margin-left: 17px;
-    }
-    
-    .navbar a:hover,
-    .navbar a.active {
-        color: aqua;
-    }
-    * {
-        box-sizing: border-box;
-        font-family: 'Poppins', sans-serif; 
-    }
-    body{
-        background-image: url("light.jpg");
-        background-size: cover;
-        width: 50%;
-        height: 50%;
-    }
+@media screen and (min-width: 300px) and (max-width:600px){
     h1{
-        color: white;
-        margin-top: 50%;
-        margin-left: 5%;
-        font-style: italic;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        position: relative;
+       position: relative;
+       bottom: 30%;
     }
-    h3{
-        color: aqua;
-        margin-left: 5%;
-    }
-    p{
-        color: white;
-        line-height: 1.5;
-        margin-left: 5%;
-        font-weight: bold;
+    .pro{
+        margin-top: 40%;
     }
 }
