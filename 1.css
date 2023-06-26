@@ -75,10 +75,11 @@ body {
 }
 
 .home-content h1 {
-    font-size: 56px;
+    font-size: 70px;
     font-weight: 700;
     line-height: 1.2;
     color: white;
+    margin-top: -20%;
 }
 
 .home-content h1::before {
@@ -94,13 +95,13 @@ body {
 }
 
 .home-content h3 {
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 700;
     color: aqua;
 }
 
 .home-content p {
-    font-size: 25px;
+    font-size: 30px;
     margin: 20px 0 40px;
     color: white;
     font-family: 'Times New Roman', Times, serif;
@@ -119,12 +120,12 @@ body {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 80%;
+    width: 150px;
+    height: 100%;
     background-color: aqua;
     border: 2px solid rgb(251, 251, 251);
     border-radius: 8px;
-    font-size: 13px;
+    font-size: 20px;
     color: rgb(17, 17, 17);
     text-decoration: none;
     font-weight: 600;
@@ -180,6 +181,7 @@ body {
 
 .home-sci a {
     position: relative;
+    left: 180%;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -219,11 +221,14 @@ body {
 @media screen and (min-width: 300px) and (max-width:600px){
 .home-content h1{
     font-size: 40px;
-    margin-top: 50%;
+    margin-top: 150%;
 }
 .home-sci a{
-    margin-top: 80%;
-    margin-left: 10%;
+    margin-top: 650%;
+    margin-left: 7%;
+    position: relative;
+    left: -80%;
 }
+
 
 }
